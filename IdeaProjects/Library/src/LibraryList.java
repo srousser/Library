@@ -5,9 +5,6 @@ import java.util.ArrayList;
  */
 public interface LibraryList <E>
 {
-    //Unsure what error is here
-    ArrayList<E> list = new ArrayList<E>();
-
     public void display();
     public E get(String name);
     public int find(E e);
