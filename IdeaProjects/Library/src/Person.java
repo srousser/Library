@@ -3,7 +3,8 @@
  */
 public interface Person
 {
-    String name;
+    //Kept yelling at me if I didn't initialize it, so...
+    String name = "";
 
     public String getName();
     public void setName(String name);

@@ -5,5 +5,13 @@ import java.util.ArrayList;
  */
 public interface LibraryList <E>
 {
-    ArrayList<E> list;
+    //Unsure what error is here
+    ArrayList<E> list = new ArrayList<E>();
+
+    public void display();
+    public E get(String name);
+    public int find(E e);
+    public void add(E e);
+    public E remove(E e);
+    public ArrayList<E> getList();
 }
